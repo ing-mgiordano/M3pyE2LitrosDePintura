@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./estilos.css" />
+
+    <title>Litros de pintura</title>
+    
+</head>
+
+<body>
+    <h1>Calculo de Litros de Pintura</h1>
+    <h3>Ingrese el alto y el ancho de la pared para calcular los litros de pintura necesarios</h3>
+    
+    <p>Ingrese alto de pared en metros</p>
+    <input type=number id="input-Alto">
+    
+    <p>Ingrese ancho de pared en metros</p>
+    <input type=number id="input-Ancho"> </br></br>
+
+    <p>Ingrese cantidad de manos que quiera aplicar</p>
+    <input type=number id="input-Manos"> </br></br>
+
+    <button onclick="calcularLitros()">Pintar</button>
+
+    <p id="litros-necesarios"></p>
+    
+    <script src="./index.js"></script>
+</body>
+
+</html>
